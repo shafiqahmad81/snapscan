@@ -1,1 +1,1 @@
-snapscan
+snapscan project
