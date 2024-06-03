@@ -4,12 +4,163 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/output.css" />
-    <title>Document</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/icon/img/logo.png"
+      type="image/x-icon"
+    />
+    <title>Snapscan | Mercant</title>
   </head>
-  <body>
-    <div class="flex">
-      <h1 class="text-7xl text-neutral-600 m-auto">Snapscan</h1>
-      <h1 class="text-7xl text-neutral-600 m-auto">Project</h1>
-    </div>
+  <body class="font-proxima min-w-[320px]">
+    <main id="main">
+      <!-- Header section start -->
+      <header
+        class="fixed top-0 left-0 w-full border-b border-sky-1 h-min bg-white main-header"
+      >
+        <nav
+          class="px-4 md:px-9 pt-3 pb-2 lg:flex items-center justify-between sticky"
+        >
+          <a
+            class="flex justify-between gap-3 text-white pb-2 lg:pb-0"
+            href="#"
+          >
+            <img
+              id="snapscan"
+              class="black-logo"
+              src="./assets/icon/svgs/logo-snapscan.svg"
+              alt="snapscan"
+            />
+            <img
+              id="snapscan-white"
+              class="hidden"
+              src="./assets/icon/svgs/logo-snapscan-white.svg"
+              alt="snapscan-white"
+            />
+            <img
+              id="close"
+              class="hidden"
+              src="./assets/icon/svgs/icn-close.svg"
+              alt="Close Icon"
+            />
+            <img
+              id="hamberger"
+              class="lg:hidden"
+              src="./assets/icon/svgs/icn-hamberger.svg"
+              alt="icon"
+            />
+          </a>
+          <div
+            id="menu"
+            class="lg:flex items-center pl-4 max-h-[85vh] lg:h-auto overflow-y-auto lg:overflow-y-visible hidden"
+          >
+            <ul class="lg:flex items-center mt-11 lg:mt-0">
+              <li
+                class="text-white lg:text-gray-1 text-2.1xl lg:text-base lg:leading-5 leading-8 font-semibold mb-4 lg:mb-0 lg:px-5"
+              >
+                <a
+                  class="relative lg:text-black-1 before:absolute before:-top-[25px] before:w-full before:h-1 before:content-[''] before:bg-blue-1"
+                  href="#"
+                  >Marchent</a
+                >
+              </li>
+              <li
+                class="text-white lg:text-gray-1 text-2.1xl lg:text-base lg:leading-5 leading-8 font-semibold mb-4 lg:mb-0 lg:px-5"
+              >
+                <a href="#">User</a>
+              </li>
+              <li
+                class="text-white lg:text-gray-1 text-2.1xl lg:text-base lg:leading-5 leading-8 font-semibold mb-4 lg:mb-0 lg:px-5"
+              >
+                <a href="#">About</a>
+              </li>
+              <li
+                class="text-white lg:text-gray-1 text-2.1xl lg:text-base lg:leading-5 leading-8 font-semibold mb-4 lg:mb-0 lg:px-5"
+              >
+                <a href="#">Support</a>
+              </li>
+              <li
+                class="text-white lg:text-gray-1 text-2.1xl lg:text-base lg:leading-5 leading-8 font-semibold mb-4 lg:mb-0 lg:px-5"
+              >
+                <a href="#"></a>
+              </li>
+            </ul>
+            <div class="border-b pt-8 pb-9 lg:hidden">
+              <span class="text-[#a5cefe] font-semibold text-sm"
+                >Download to pay!</span
+              >
+              <div class="flex items-center -ml-[7px] mt-7">
+                <a class="mr-6" href="#"
+                  ><img src="./assets/icon/svgs/icn-mobile-apple.svg" alt=""
+                /></a>
+                <a href="#"
+                  ><img src="./assets/icon/svgs/icn-mobile-play.svg" alt=""
+                /></a>
+              </div>
+            </div>
+            <div
+              class="lg:flex items-center mt-8 lg:mt-0 relative lg:after:absolute after:top-2 after:left-0 after:w-px after:h-7 after:content-[''] after:bg-[#d3dce0]"
+            >
+              <a
+                class="w-[45.5223%] md:w-36 leading-10 mr-[4.4776%] border-2 border-white rounded-3xl text-lg bg-white text-blue-1 lg:text-gray-1 font-bold px-5 max-w-full inline-block text-center"
+                href="#"
+                >Sign up</a
+              >
+              <a
+                class="w-[45.5223%] md:w-36 leading-10 border-2 border-white rounded-3xl text-lg bg-blue-1 text-white lg:bg-white lg:text-blue-1 lg:border-blue-1 font-bold px-5 max-w-full inline-block text-center"
+                href="#"
+                >Sign in</a
+              >
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- Header section end -->
+      <!-- Bannar section start -->
+
+      <!-- Bannar section end -->
+      <!-- Footer section start -->
+      <footer class="mt-16 bg-[#eff5f9] pt-9 pb-[73px] relative">
+        <div class="container m-auto max-w-[1230px] px-4 md:px-9">
+          <div class="grid grid-cols-10 items-center">
+            <div class="col-span-4">
+              <h6>Download to pay</h6>
+              <div class="flex items-center gap-3">
+                <div>
+                  <a href="#"
+                    ><img
+                      src="./assets/icon/svgs/logo-appstore.svg"
+                      alt="App store"
+                  /></a>
+                </div>
+                <div>
+                  <a href="#"
+                    ><img
+                      src="./assets/icon/svgs/logo-playstore.svg"
+                      alt="Playstore"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-span-6">
+              <ul class="flex justify-end gap-5">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">API</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <img
+          class="absolute top-16 left-1/2 -translate-y-1/2"
+          src="./assets/icon/svgs/img-footer-illustration.svg"
+          alt="illustration"
+        />
+      </footer>
+      <!-- Footer section end -->
+    </main>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
