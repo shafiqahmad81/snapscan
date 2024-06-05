@@ -42,3 +42,9 @@
 .nav-expanded .black-logo {
   @apply hidden;
 }
+
+@layer {
+  body {
+    @apply font-normal font-proxima text-base text-gray-1.9;
+  }
+}

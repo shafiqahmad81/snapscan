@@ -12,10 +12,10 @@
     <title>Snapscan | Mercant</title>
   </head>
   <body class="font-proxima min-w-[320px]">
-    <main id="main">
+    <main class="" id="main">
       <!-- Header section start -->
       <header
-        class="fixed top-0 left-0 w-full border-b border-sky-1 h-min bg-white main-header"
+        class="fixed top-0 left-0 w-full border-b border-sky-1 h-min bg-white main-header z-50"
       >
         <nav
           class="px-4 md:px-9 pt-3 pb-2 lg:flex items-center justify-between sticky"
@@ -119,12 +119,18 @@
 
       <!-- Bannar section end -->
       <!-- Footer section start -->
-      <footer class="mt-16 bg-[#eff5f9] pt-9 pb-[73px] relative hidden">
+      <footer class="mt-16 bg-[#eff5f9] pt-9 pb-52 lg:pb-[73px] relative">
         <div class="container m-auto max-w-[1230px] px-4 md:px-9">
-          <div class="grid grid-cols-10 items-center">
-            <div class="col-span-4">
-              <h6>Download to pay</h6>
-              <div class="flex items-center gap-3">
+          <div
+            class="grid grid-cols-10 items-center pb-9 relative after:absolute after:content-[''] after:bottom-0 after:left-0 after:w-full after:h-px after:bg-gray-1.1"
+          >
+            <div
+              class="col-span-12 text-start md:text-center lg:text-start lg:col-span-4"
+            >
+              <p>Download to pay</p>
+              <div
+                class="flex items-center justify-start md:justify-center lg:justify-start gap-3 mt-[10px]"
+              >
                 <div>
                   <a href="#"
                     ><img
@@ -141,20 +147,102 @@
                 </div>
               </div>
             </div>
-            <div class="col-span-6">
-              <ul class="flex justify-end gap-5">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">API</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Privacy</a></li>
+            <div class="col-span-12 lg:col-span-6 mt-9 lg:mt-0">
+              <ul
+                class="divide-y md:divide-y-0 divide-[#d8e7f9] md:flex justify-center lg:justify-end gap-10"
+              >
+                <li
+                  class="text-sm py-4 md:py-0 text-black-1.1 leading-7 font-semibold"
+                >
+                  <a href="#">About</a>
+                </li>
+                <li
+                  class="text-sm py-4 md:py-0 text-black-1.1 leading-7 font-semibold"
+                >
+                  <a href="#">Careers</a>
+                </li>
+                <li
+                  class="text-sm py-4 md:py-0 text-black-1.1 leading-7 font-semibold"
+                >
+                  <a href="#">Support</a>
+                </li>
+                <li
+                  class="text-sm py-4 md:py-0 text-black-1.1 leading-7 font-semibold"
+                >
+                  <a href="#">API</a>
+                </li>
+                <li
+                  class="text-sm py-4 md:py-0 text-black-1.1 leading-7 font-semibold"
+                >
+                  <a href="#">Terms</a>
+                </li>
+                <li
+                  class="text-sm py-4 md:py-0 text-black-1.1 leading-7 font-semibold"
+                >
+                  <a href="#">Privacy</a>
+                </li>
               </ul>
+            </div>
+          </div>
+          <div class="grid grid-cols-12 mt-8">
+            <div class="col-span-12 text-center lg:text-start lg:col-span-3">
+              <p>Powered by</p>
+              <img
+                class="mt-[6px] m-auto lg:m-0"
+                src="./assets/icon/svgs/img-footer-logo-standardbank.svg"
+                alt=""
+              />
+            </div>
+            <div class="col-span-12 text-center lg:col-span-6 mt-12 lg:mt-7">
+              <p>
+                Copyright © 2019 SnapScan. All rights reserved. Cape Town, South
+                Africa
+              </p>
+            </div>
+            <div
+              class="col-span-12 m-auto lg:m-0 lg:col-span-3 flex items-start justify-end gap-5 mt-12 lg:mt-3"
+            >
+              <div class="w-11 h-11 relative">
+                <a class="w-full group" i href="#"
+                  ><img
+                    class="absolute top-0 right-0"
+                    src="./assets/icon/svgs/icn-social-facebook.svg"
+                    alt="" />
+                  <img
+                    class="absolute top-0 right-0 opacity-0 group-hover:opacity-100 transition-all duration-500"
+                    src="./assets/icon/svgs/icn-social-facebook-active.svg"
+                    alt=""
+                /></a>
+              </div>
+              <div class="w-11 h-11 relative">
+                <a class="w-full group" i href="#"
+                  ><img
+                    class="absolute top-0 right-0"
+                    src="./assets/icon/svgs/icn-social-twitter.svg"
+                    alt="" />
+                  <img
+                    class="absolute top-0 right-0 opacity-0 group-hover:opacity-100 transition-all duration-500"
+                    src="./assets/icon/svgs/icn-social-twitter-active.svg"
+                    alt=""
+                /></a>
+              </div>
+              <div class="w-11 h-11 relative">
+                <a class="w-full group" i href="#"
+                  ><img
+                    class="absolute top-0 right-0"
+                    src="./assets/icon/svgs/icn-social-instagram.svg"
+                    alt="" />
+                  <img
+                    class="absolute top-0 right-0 opacity-0 group-hover:opacity-100 transition-all duration-500"
+                    src="./assets/icon/svgs/icn-social-instagram-active.svg"
+                    alt=""
+                /></a>
+              </div>
             </div>
           </div>
         </div>
         <img
-          class="absolute top-16 left-1/2 -translate-y-1/2"
+          class="absolute bottom-8 lg:top-20 xl:top-14 left-1/2 -translate-x-1/2"
           src="./assets/icon/svgs/img-footer-illustration.svg"
           alt="illustration"
         />

@@ -4,7 +4,6 @@ const menuNav = document.getElementById("menu");
 const mainDiv = document.getElementById("main");
 const snapscanLogoWhite = document.getElementById("snapscan-white");
 const snapscanLogo = document.getElementById("snapscan");
-
 function show() {
   menuNav.classList.remove("hidden");
   menuNav.classList.add("block");
