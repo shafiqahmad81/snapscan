@@ -3,6 +3,10 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      backgroundPosition: {
+        "left-36-bottom": "left 36% bottom",
+        "left-25-bottom": "left 25% bottom",
+      },
       fontFamily: {
         proxima: ['"Proxima Nova", sans-serif'],
       },
@@ -21,4 +25,11 @@ module.exports = {
     },
   },
   plugins: [],
+  // variants: {
+  //   backgroundPosition: ["responsive"],
+  //   backgroundPosition: ["responsive", "hover", "focus"],
+  // },
+  // corePlugins: {
+  //   backgroundPosition: false,
+  // },
 };
