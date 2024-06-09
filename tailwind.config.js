@@ -17,10 +17,14 @@ module.exports = {
         "blue-1": "#4a90e2",
         "gray-1": "#9faab4",
         "gray-1.1": "#e3ebf5",
+        "gray-1.2": "#f8fafd",
         "gray-1.9": "#5a707b",
       },
       fontSize: {
         "2.1xl": "1.625rem",
+      },
+      boxShadow: {
+        "3xl": "0 4px 10px 0 rgba(200, 216, 235, 0.8)",
       },
     },
   },
