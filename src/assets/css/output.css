@@ -1899,6 +1899,10 @@ video {
     margin-top: 70px;
   }
 
+  .md\:ml-\[18\%\] {
+    margin-left: 18%;
+  }
+
   .md\:block {
     display: block;
   }
