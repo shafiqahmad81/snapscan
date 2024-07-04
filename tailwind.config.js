@@ -18,6 +18,7 @@ module.exports = {
       colors: {
         "sky-1": "rgba(187, 216, 249, 0.5)",
         "gray-rgba-1": "rgba(255, 255, 255, 0.5)",
+        "gray-rgba-2": "rgba(74, 144, 226, .1)",
         "black-1": "rgb(20, 54, 65)",
         "black-2": "rgb(38, 57, 67)",
         "black-1.1": "#263943",
